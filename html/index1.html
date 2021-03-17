@@ -6,15 +6,59 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ImagineDragons</title>
+    <style>
+        .unique {
+            display: flex;
+            justify-content: flex-end;
+            border: 7px solid black ;
+        }
+        .father{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .box{
+            background-color: goldenrod;
+            border: darkslategray solid;
+            color: darkslategray;
+            font-family: "Georgia", serif;
+            text-align: center;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 14px;
+        }
+        .serif{
+            font-family: "Georgia", serif;
+            text-align: center;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 34px;
+        }
+        h1{
+            width: 510px;
+            margin: 0 auto 30px;
+            padding: 0 20px;
+        }
+        .advantages-item{
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        body{
+            background-color: aliceblue;
+        }
+
+    </style>
 </head>
 <body>
 <h1>Rock-band Imagine Dragons</h1>
-<p>Imagine Dragons is an American indie rock band formed in 2008 in Las Vegas, USA.
+<p class="serif">Imagine Dragons is an American indie rock band formed in 2008 in Las Vegas, USA.
     American Billboard magazine named them the brightest new stars of 2013 and the biggest group of 2017,
     and Rolling Stone magazine named their single "Radioactive" the biggest rock hit of the year.</p>
-<img src="images/Imagine-Dragons.jpg" alt="Imagine-Dragons">
-<h2>Group formation</h2>
-<p>Group formation
+<div class="father">
+ <img class="unique" src="images/Imagine-Dragons.jpg" alt="Imagine-Dragons" width= "650">
+    <div class="box">
+<h2>Group information</h2>
+<p>Group information
     Imagine Dragons is a four-member indie rock band. It was founded in Las Vegas in 2008. The name of the group
     is an anagram, the meaning of which is known only to the members of the group itself. The history of the group
     egan with the fact that
@@ -30,13 +74,15 @@
     <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%86%D0%BC%D0%B0%D0%BD,_%D0%94%D1%8D%D0%BD%D0%B8%D0%B5%D0%BB">Daniel
         (Platz) Platzman</a> to the group. They were later joined by Aurora Florence, replacing Brittany, and after her
     departure, Teresa Flaminio. After Teresa left, the composition of the group did not change anymore.</p>
+</div>
+</div>
 
 <h2>Albums:</h2>
 <ul>
-    <li>Night Visions (2012-2014)</li>
-    <li> Smoke + Mirrors (2015-2016)</li>
-    <li> Evolve (2017-2018)</li>
-    <li> Origins (2018)</li>
-    <li> Follow You (2020-2021)</li>
+    <li class="advantages-item">Night Visions (2012-2014)</li>
+    <li class="advantages-item"> Smoke + Mirrors (2015-2016)</li>
+    <li class="advantages-item"> Evolve (2017-2018)</li>
+    <li class="advantages-item"> Origins (2018)</li>
+    <li class="advantages-item"> Follow You (2020-2021)</li>
 </ul>
 </body>
