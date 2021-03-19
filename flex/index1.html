@@ -20,11 +20,12 @@
             border-bottom: 10px solid white;
         }
         .left-sidebar {
-            background: lightskyblue;
+            background:white;
             float: left;
             height: 400px;
             width: 60%;
             text-align: center;
+            border-bottom: 10px solid white;
         }
         .right-sidebar {
             background: lightpink;
@@ -32,6 +33,40 @@
             height: 400px;
             width: 39%;
             text-align: center;
+            border-bottom: 10px solid white;
+        }
+        .element{
+            background: goldenrod;
+            height: 200px;
+            width: 100%;
+            border-bottom: 10px solid white;
+        }
+        .element1{
+            background: lightgreen;
+            height:190px;
+            min-width: 260px;
+            align-self: flex-start;
+            border-right: 10px solid white;
+
+        }
+        .element2{
+            background: lightsalmon;
+            height:190px;
+            min-width: 260px;
+            border-right: 10px solid white;
+
+        }
+        .element3{
+            background: lightsteelblue;
+            height:190px;
+            min-width: 260px;
+            align-self: flex-end;
+        }
+        .container_elements{
+            height:190px;
+            min-width: 350px;
+            display: inline-flex;
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -42,10 +77,17 @@
         <p>A</p>
     </div>
     <div class="left-sidebar">
-        <p>B</p>
+        <div class="element">B</div>
+         <div class="container_elements">
+             <div class="element1">C</div>
+             <div class="element2">D</div>
+             <div class="element3">F</div>
+         </div>
+
     </div>
+
     <div class="right-sidebar">
-        <p>C</p>
+        <p>E</p>
     </div>
  </div>
 </body>
