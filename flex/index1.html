@@ -35,37 +35,53 @@
             text-align: center;
             border-bottom: 10px solid white;
         }
-        .element{
-            background: goldenrod;
-            height: 200px;
-            width: 100%;
-            border-bottom: 10px solid white;
-        }
         .element1{
             background: lightgreen;
-            height:190px;
-            min-width: 260px;
-            align-self: flex-start;
+            height:192px;
+            min-width: 255px;
             border-right: 10px solid white;
 
         }
         .element2{
             background: lightsalmon;
-            height:190px;
-            min-width: 260px;
+            height:192px;
+            min-width: 255px;
             border-right: 10px solid white;
 
         }
         .element3{
+            background: red;
+            height:192px;
+            min-width: 255px;
+
+        }
+        .element4{
+            background: yellowgreen;
+            height:192px;
+            min-width: 255px;
+            border-right: 10px solid white;
+            border-top: 10px solid white;
+
+        }
+        .element5{
+            background: sandybrown;
+            height:192px;
+            min-width: 255px;
+            border-top: 10px solid white;
+
+        }
+        .element6{
             background: lightsteelblue;
-            height:190px;
-            min-width: 260px;
+            height:192px;
+            min-width: 255px;
             align-self: flex-end;
+            border-top: 10px solid white;
         }
         .container_elements{
-            height:190px;
+            height:192px;
             min-width: 350px;
-            display: inline-flex;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
         }
     </style>
@@ -77,13 +93,14 @@
         <p>A</p>
     </div>
     <div class="left-sidebar">
-        <div class="element">B</div>
          <div class="container_elements">
              <div class="element1">C</div>
              <div class="element2">D</div>
              <div class="element3">F</div>
+             <div class="element4">B</div>
+             <div class="element5">G</div>
+             <div class="element6">H</div>
          </div>
-
     </div>
 
     <div class="right-sidebar">
