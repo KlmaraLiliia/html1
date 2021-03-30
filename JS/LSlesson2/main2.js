@@ -16,8 +16,8 @@ num [0] = 1;
 num [1] = true;
 num [2] = 'owu';
 console.log (num);
-
 console.log (num[0], num[1],num[2], num[3], num[4]);
+
 3.- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 for (let i =7; i<17; i++){
     document.write(`<div> Сьогодні ${i} число`);
