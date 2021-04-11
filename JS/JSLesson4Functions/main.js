@@ -208,13 +208,16 @@ const zeroEnd = (array) => {
 
 // ******************* НАЗАД В МИНУЛЕ *********************** //
 // Створити функцію яка додає в боді блок з текстом "Hello owu"
-const addDiv = (text, cars, elementID) => {
+const addDiv = (elementID) => {
     const div = document.createElement('div');
     div.innerHTML = "Hello owu";
     document.body.appendChild(div);
 };
 addDiv("Hello owu");
 */
+
+
+
 
 
 
